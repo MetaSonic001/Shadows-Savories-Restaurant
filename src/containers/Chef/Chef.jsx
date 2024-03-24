@@ -16,9 +16,10 @@ const Chef = () => (
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote_image" />
-          <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .</p>
+          {/* <p className="p__opensans"></p> */}
         </div>
-        <p className="p__opensans"> auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc. </p>
+        <p className="p__opensans"  style={{ textAlign: 'justify' }}> Welcome to Shadows & Savories! It's been an incredible journey bringing my culinary vision to life in the heart of Mumbai. Each dish on our menu is a labor of love, crafted with the finest ingredients and inspired by a passion for flavors and innovation. </p>
+        <p className="p__opensans"  style={{ textAlign: 'justify' }}>Bon appétit!</p>
       </div>
 
       <div className="app__chef-sign">

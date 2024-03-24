@@ -13,7 +13,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+        <p className="p__opensans" style={{ textAlign: 'justify' }}>Step into a realm where culinary artistry meets mysterious allure at Shadows & Savories. Nestled in the heart of Mumbai, our restaurant invites you to embark on a gastronomic journey like no other. Prepare to be enchanted by the interplay of flavors, textures, and aromas, as we unveil a world of delectable delights crafted to tantalize your senses.</p>
         <button type="button" className="custom__button">Know More</button>
       </div>
 
@@ -24,7 +24,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
+        <p className="p__opensans">Shadows & Savories has been a culinary gem in Mumbai. From our humble beginnings, we've grown into a renowned dining destination, blending innovative cuisine with impeccable service. We're grateful for our loyal patrons and talented team who've made our journey unforgettable.</p>
         <button type="button" className="custom__button">Know More</button>
       </div>
     </div>

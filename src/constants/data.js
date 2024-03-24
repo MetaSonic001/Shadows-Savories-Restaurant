@@ -59,23 +59,23 @@ const cocktails = [
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Culinary Excellence Award',
+    subtitle: 'For culinary innovation and exceptional taste.',
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Ambiance Achievement',
+    subtitle: 'Recognizing our captivating atmosphere.',
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Service Superiority',
+    subtitle: 'Honoring our exceptional hospitality.',
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Dining Destination Distinction',
+    subtitle: 'Celebrating our status as a premier dining destination.',
   },
 ];
 
